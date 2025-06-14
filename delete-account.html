@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            line-height: 1.6;
+            line-height: 1.7;
             color: #333;
             background-color: #f9f9f9;
             margin: 0;
@@ -24,41 +24,50 @@
             box-shadow: 0 2px 10px rgba(0,0,0,0.05);
         }
         h1, h2 {
-            color: #D32F2F; /* Red color for emphasis */
+            color: #2E7D32; /* Green app color */
         }
         h1 {
             border-bottom: 2px solid #E0E0E0;
             padding-bottom: 10px;
             margin-bottom: 20px;
+            font-size: 24px;
         }
-        .step {
-            margin-bottom: 20px;
-            padding-left: 20px;
-            position: relative;
+        h2 {
+            font-size: 20px;
+            border-right: 3px solid #66BB6A;
+            padding-right: 10px;
+            margin-top: 30px;
         }
-        .step-number {
-            position: absolute;
-            right: -25px; /* Adjust for RTL */
-            top: 0;
-            background-color: #2E7D32;
-            color: white;
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        ul {
+            padding-right: 20px;
+            list-style-type: '• ';
+        }
+        li {
+            margin-bottom: 10px;
         }
         .note {
-            background-color: #fffbe6;
-            border-left: 4px solid #ffc107; /* Changed to left for RTL */
+            background-color: #FFF3E0; /* Light Orange */
+            border-right: 4px solid #FFA726; /* Orange */
             padding: 15px;
-            margin-top: 20px;
+            margin-top: 25px;
             border-radius: 4px;
+        }
+        .note strong {
+            color: #E65100; /* Dark Orange */
         }
         strong {
             color: #111;
+        }
+        .contact {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #E0E0E0;
+            text-align: center;
+            font-size: 14px;
         }
     </style>
 </head>
@@ -68,41 +77,42 @@
         <p>نحن نأسف لرغبتك في المغادرة، ونحترم قرارك. يوضح هذا الدليل كيفية حذف حسابك وجميع البيانات المرتبطة به بشكل دائم من تطبيق "أنوار الهدى".</p>
 
         <h2>خطوات حذف الحساب من داخل التطبيق:</h2>
-        
-        <div class="step">
-            <span class="step-number">1</span>
-            <p><strong>افتح التطبيق:</strong> قم بتسجيل الدخول إلى حسابك في تطبيق "أنوار الهدى".</p>
-        </div>
-        <div class="step">
-            <span class="step-number">2</span>
-            <p><strong>اذهب إلى الإعدادات:</strong> افتح القائمة الجانبية (من خلال الضغط على صورتك الشخصية في الشاشة الرئيسية)، ثم اختر "الإعدادات".</p>
-        </div>
-        <div class="step">
-            <span class="step-number">3</span>
-            <p><strong>ابحث عن خيار الحذف:</strong> في شاشة الإعدادات، مرر للأسفل حتى تجد قسم "إدارة الحساب".</p>
-        </div>
-        <div class="step">
-            <span class="step-number">4</span>
-            <p><strong>تأكيد الحذف:</strong> اضغط على زر "حذف الحساب نهائياً". سيطلب منك التطبيق تأكيد هذا الإجراء لأنه نهائي ولا يمكن التراجع عنه.</p>
-        </div>
+        <ul>
+            <li><strong>افتح القائمة الجانبية:</strong> قم بتسجيل الدخول إلى حسابك، ومن الشاشة الرئيسية، افتح القائمة الجانبية (عادةً من خلال الضغط على صورتك الشخصية).</li>
+            <li><strong>اذهب إلى الإعدادات:</strong> اختر "الإعدادات والخصوصية" من القائمة.</li>
+            <li><strong>ابحث عن خيار الحذف:</strong> في شاشة الإعدادات، مرر للأسفل حتى تجد قسم <strong>"إدارة الحساب"</strong>.</li>
+            <li><strong>تأكيد الحذف:</strong> اضغط على زر "حذف الحساب نهائياً". سيطلب منك التطبيق تأكيد هذا الإجراء لأنه نهائي ولا يمكن التراجع عنه.</li>
+        </ul>
 
         <h2>ماذا يحدث عند حذف حسابك؟</h2>
-        <p>عند تأكيد الحذف، سيتم تنفيذ الإجراءات التالية بشكل فوري ودائم:</p>
+        <p>عند تأكيد الحذف، سيتم تنفيذ الإجراءات التالية بشكل فوري ودائم وفقاً للكود البرمجي للتطبيق:</p>
         <ul>
-            <li>سيتم تغيير اسمك وصورتك الشخصية في جميع أنحاء التطبيق إلى "مستخدم محذوف" للحفاظ على سياق المحادثات السابقة.</li>
-            <li>سيتم حذف جميع معلوماتك الشخصية الحساسة من قواعد بياناتنا، بما في ذلك كلمة المرور، رقم الهاتف، صور البطاقة الوطنية، ورمز الإشعارات.</li>
-            <li>ستتم إزالتك تلقائيًا من جميع الحلقات الدراسية التي انضممت إليها.</li>
-            <li>إذا كنت معلمًا، فسيتم حذف جميع الحلقات الدراسية التي قمت بإنشائها.</li>
+            <li><strong>إخفاء الهوية (Anonymization):</strong> سيتم تغيير اسمك إلى <strong>"مستخدم محذوف"</strong> وصورتك الشخصية ستُحذف للحفاظ على سياق المحادثات السابقة دون الكشف عن هويتك.</li>
+            <li><strong>حذف البيانات الحساسة:</strong> سيتم حذف معلوماتك الشخصية نهائياً من قاعدة البيانات، وتشمل:
+                <ul>
+                    <li>كلمة المرور المشفرة.</li>
+                    <li>رقم الهاتف (سيتم تعديله ليصبح غير قابل للاستخدام).</li>
+                    <li>صور البطاقة الوطنية (الأمامية والخلفية).</li>
+                    <li>رمز الإشعارات (FCM Token).</li>
+                </ul>
+            </li>
+            <li><strong>إلغاء العضوية:</strong>
+                <ul>
+                    <li>ستتم إزالتك تلقائيًا من قوائم المشاركين في جميع الحلقات الدراسية التي انضممت إليها كطالب.</li>
+                    <li>ستتم إزالتك من قوائم المشاركين في جميع المحادثات الخاصة والجماعية.</li>
+                </ul>
+            </li>
+            <li><strong>إجراءات خاصة بالمعلمين:</strong> إذا كنت مسجلاً كمعلم، فسيتم حذف جميع الحلقات الدراسية التي قمت بإنشائها، بالإضافة إلى المحادثات والرسائل المرتبطة بها.</li>
         </ul>
 
         <div class="note">
-            <p><strong>ملاحظة هامة:</strong> عملية الحذف هذه نهائية ولا يمكن التراجع عنها. إذا قمت بحذف حسابك، فلن تتمكن من استعادة بياناتك أو تقدمك في الحلقات الدراسية.</p>
+            <p><strong>ملاحظة هامة:</strong> عملية الحذف هذه <strong>نهائية ولا يمكن التراجع عنها</strong>. إذا قمت بحذف حسابك، فلن تتمكن من استعادة بياناتك أو تقدمك في الحلقات الدراسية أو سجل محادثاتك.</p>
         </div>
 
-        <hr style="margin-top: 30px; margin-bottom: 20px;">
-        <p>إذا واجهت أي مشاكل أو كان لديك أي أسئلة، يرجى عدم التردد في التواصل معنا عبر البريد الإلكتروني:<br>
-        <strong>support@anwaralhuda.app</strong></p>
-
+        <div class="contact">
+            <p>إذا واجهت أي مشاكل أو كان لديك أي أسئلة، يرجى عدم التردد في التواصل معنا عبر البريد الإلكتروني:<br>
+            <strong>support@anwaralhuda.app</strong></p>
+        </div>
     </div>
 </body>
 </html>
